@@ -1,0 +1,136 @@
+version: "3.8"
+
+services:
+  # 1. Minecraft Server
+  mc-server:
+    image: itzg/minecraft-server
+    container_name: mc-server
+    environment:
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      VERSION: "1.21.1"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "password"
+      RCON_PORT: 25575
+      ONLINE_MODE: "false"
+      MOTD: "Minecraft Server with Monitoring"
+      MEMORY: "6G" # Optimized for M4 Pro (24GB RAM)
+      PLUGINS: |
+        https://github.com/sladkoff/minecraft-prometheus-exporter/releases/download/v2.5.0/minecraft-prometheus-exporter-2.5.0.jar
+        https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
+        https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
+        https://github.com/ViaVersion/ViaVersion/releases/download/5.5.1/ViaVersion-5.5.1.jar
+    ports:
+      - "25565:25565" # Game Port
+      - "25575:25575" # RCON Port
+      - "9225:9225" # Prometheus Exporter Port
+      - "19132:19132/udp" # Bedrock Port (Geyser)
+    volumes:
+      - ./mc-data:/data
+    networks:
+      - mc-network
+    restart: unless-stopped
+
+  # 2. Prometheus (Monitoring)
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "29090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    networks:
+      - mc-network
+    restart: unless-stopped
+
+  # 3. Grafana (Visualization)
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin # Initial password
+      - GF_RENDERING_SERVER_URL=http://renderer:8081/render #이미지 렌더링을 위한 URL
+      - GF_RENDERING_CALLBACK_URL=http://grafana:3000/ #이미지 렌더링 후 콜백 URL
+      - GF_LOG_FILTERS=rendering:debug
+      - GF_SERVER_ROOT_URL=${GRAFANA_PUBLIC_URL:-http://localhost:3000} # 외부 접속 URL (없으면 localhost 기본값)
+      - GF_SERVER_DOMAIN=${GRAFANA_DOMAIN:-localhost}
+    volumes:
+      - grafana-data:/var/lib/grafana
+    networks:
+      - mc-network
+    depends_on:
+      - prometheus
+      - renderer
+    restart: unless-stopped
+
+  # 3.5 Grafana Image Renderer #이미지 렌더링을 위한 서비스
+  renderer:
+    image: grafana/grafana-image-renderer:latest
+    container_name: grafana-renderer
+    ports:
+      - "8081"
+    networks:
+      - mc-network
+    restart: unless-stopped
+
+  # 4. PostgreSQL (Database)
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mc_stats
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - mc-network
+    restart: unless-stopped
+
+  # 5. Discord Bot Server (FastAPI)
+  bot-server:
+    build: ./bot
+    container_name: bot-server
+    ports:
+      - "8000:8000" # FastAPI Webhook Port
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - RCON_HOST=mc-server
+      - RCON_PORT=25575
+      - RCON_PASSWORD=password
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USER=user
+      - DB_PASSWORD=password
+      - DB_NAME=mc_stats
+      - GRAFANA_URL=http://grafana:3000
+      - GRAFANA_TOKEN=${GRAFANA_TOKEN} # Needs to be set in .env
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./mc-data:/mc-logs:ro # Read-only access to MC logs
+    networks:
+      - mc-network
+    depends_on:
+      - mc-server
+      - postgres
+    restart: unless-stopped
+
+networks:
+  mc-network:
+    driver: bridge
+
+volumes:
+  prometheus-data:
+  grafana-data:
+  postgres-data:

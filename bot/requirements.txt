@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+discord.py
+mcrcon
+asyncpg
+pandas
+prometheus-client
+python-dotenv
+aiohttp

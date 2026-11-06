@@ -1,0 +1,48 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Docker Volumes (Data)
+mc-data/
+prometheus-data/
+grafana-data/
+postgres-data/
+
+# Logs
+*.log
+logs/
+
+# IDEs
+.vscode/
+.idea/
+
+*.pdf
+# Local credentials and environment variants
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+backups/
+*.sql
+*.sql.gz
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
