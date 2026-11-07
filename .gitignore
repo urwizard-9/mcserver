@@ -29,6 +29,7 @@ logs/
 # Local credentials and environment variants
 .env.*
 !.env.example
+!.env.trial.example
 *.pem
 *.key
 
@@ -46,3 +47,7 @@ backups/
 .ruff_cache/
 .coverage
 htmlcov/
+
+# Isolated compatibility trial and private material
+trial-data/
+secrets/

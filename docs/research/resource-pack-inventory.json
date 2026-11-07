@@ -1,0 +1,2441 @@
+{
+  "source": "https://cdn.eradium.fr/lgrsp/public/1.21.zip",
+  "sha256": "e6ad5c95f43a9f5d398433bd8cfd9f2769c0f5547aab2f2380ec59f00b2498df",
+  "files": 619,
+  "pack_metadata": {
+    "pack": {
+      "pack_format": 34,
+      "description": "§6Pack par §eMister Nox\n§8§oVersion §8§n§oMC1.21"
+    }
+  },
+  "models": [
+    {
+      "file": "assets/minecraft/models/block/carved_pumpkin.json",
+      "textures": {
+        "0": "block/skull/skull2",
+        "particle": "block/skull/skull2"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            -180,
+            20,
+            -180
+          ],
+          "translation": [
+            4,
+            14.5,
+            -1.25
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            -180,
+            20,
+            -180
+          ],
+          "translation": [
+            4,
+            14.5,
+            -1.25
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "ground": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            0.5,
+            -0.5,
+            0
+          ],
+          "scale": [
+            2,
+            2,
+            2
+          ]
+        },
+        "head": {
+          "rotation": [
+            180,
+            180,
+            180
+          ],
+          "translation": [
+            0,
+            20,
+            0
+          ],
+          "scale": [
+            2,
+            2,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            2,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/black_dye.json",
+      "textures": {
+        "0": "item/lg/loup_noir",
+        "particle": "item/lg/loup_noir"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/blaze_powder.json",
+      "textures": {
+        "0": "item/lg/corbeau",
+        "particle": "item/lg/corbeau"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/blue_dye.json",
+      "textures": {
+        "0": "item/lg/capitaine",
+        "1": "item/gunpowder",
+        "particle": "item/lg/capitaine"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            180,
+            -12.25,
+            180
+          ],
+          "translation": [
+            -20,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            180,
+            -12.25,
+            180
+          ],
+          "translation": [
+            -20,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            180,
+            0
+          ]
+        },
+        "head": {
+          "translation": [
+            0,
+            16,
+            0
+          ],
+          "scale": [
+            0.75,
+            0.75,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/brown_dye.json",
+      "textures": {
+        "0": "item/lg/voleur",
+        "particle": "item/lg/voleur"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/cyan_dye.json",
+      "textures": {
+        "0": "item/lg/chasseur",
+        "particle": "item/lg/chasseur"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/gray_dye.json",
+      "textures": {
+        "0": "item/lg/sorciere",
+        "particle": "item/lg/sorciere"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/green_dye.json",
+      "textures": {
+        "0": "item/lg/villageois",
+        "particle": "item/lg/villageois"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/iron_hoe.json",
+      "textures": {
+        "0": "item/iron_hoe",
+        "particle": "item/iron_hoe"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "translation": [
+            0,
+            3,
+            1
+          ],
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "translation": [
+            0,
+            3,
+            1
+          ],
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -90,
+            25
+          ],
+          "translation": [
+            1.13,
+            3.2,
+            1.13
+          ],
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -90,
+            25
+          ],
+          "translation": [
+            1.13,
+            3.2,
+            1.13
+          ],
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "ground": {
+          "translation": [
+            0,
+            2,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "head": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            -6.5
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ]
+        },
+        "fixed": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            0,
+            0,
+            -0.1
+          ],
+          "scale": [
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/light_blue_dye.json",
+      "textures": {
+        "0": "item/lg/ange",
+        "particle": "item/lg/ange"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/light_gray_dye.json",
+      "textures": {
+        "0": "item/lg/cupidon",
+        "particle": "item/lg/cupidon"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/lime_dye.json",
+      "textures": {
+        "0": "item/lg/loup_blanc",
+        "particle": "item/lg/loup_blanc"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/magenta_dye.json",
+      "textures": {
+        "0": "item/lg/pyromane",
+        "particle": "item/lg/pyromane"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/orange_dye.json",
+      "textures": {
+        "0": "item/lg/renard",
+        "particle": "item/lg/renard"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/pink_dye.json",
+      "textures": {
+        "0": "item/lg/voyante",
+        "particle": "item/lg/voyante"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/purple_dye.json",
+      "textures": {
+        "0": "item/lg/petite_fille",
+        "particle": "item/lg/petite_fille"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/red_dye.json",
+      "textures": {
+        "0": "item/lg/loup_garou",
+        "particle": "item/lg/loup_garou"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/white_dye.json",
+      "textures": {
+        "0": "item/lg/chienloup",
+        "particle": "item/lg/chienloup"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/wooden_hoe.json",
+      "textures": {
+        "0": "item/wooden_hoe",
+        "particle": "item/wooden_hoe"
+      },
+      "elements": 16,
+      "display": {
+        "thirdperson_righthand": {
+          "translation": [
+            0,
+            4,
+            -4
+          ],
+          "scale": [
+            0.4,
+            0.4,
+            0.4
+          ]
+        },
+        "thirdperson_lefthand": {
+          "translation": [
+            0,
+            4,
+            -4
+          ],
+          "scale": [
+            0.4,
+            0.4,
+            0.4
+          ]
+        },
+        "firstperson_righthand": {
+          "translation": [
+            -9,
+            9.75,
+            -2.75
+          ]
+        },
+        "firstperson_lefthand": {
+          "translation": [
+            -9,
+            9.75,
+            -2.75
+          ]
+        },
+        "ground": {
+          "rotation": [
+            39,
+            -0.05,
+            -0.33
+          ],
+          "translation": [
+            0,
+            7.75,
+            1.75
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "gui": {
+          "rotation": [
+            30,
+            225,
+            0
+          ],
+          "translation": [
+            0,
+            3.5,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "head": {
+          "translation": [
+            0,
+            15.25,
+            0
+          ]
+        },
+        "fixed": {
+          "rotation": [
+            90,
+            45,
+            -90
+          ],
+          "translation": [
+            2.75,
+            2.5,
+            0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/minecraft/models/item/yellow_dye.json",
+      "textures": {
+        "0": "item/lg/salvateur",
+        "particle": "item/lg/salvateur"
+      },
+      "elements": 1,
+      "display": {
+        "thirdperson_righthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "thirdperson_lefthand": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "firstperson_lefthand": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ],
+          "translation": [
+            -9,
+            13.5,
+            0
+          ],
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        },
+        "ground": {
+          "scale": [
+            0.5,
+            0.5,
+            0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "head": {
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fixed": {
+          "scale": [
+            1,
+            1,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "sounds": {
+    "gun": {
+      "sounds": [
+        "custom:gun"
+      ]
+    },
+    "coin_flip": {
+      "sounds": [
+        "custom:coin_flip"
+      ]
+    }
+  },
+  "license_files": [],
+  "file_list": [
+    "pack.mcmeta",
+    "pack.png",
+    "assets/custom/sounds.json",
+    "assets/custom/sounds/coin_flip.ogg",
+    "assets/custom/sounds/gun.ogg",
+    "assets/minecraft/lang/en_us.json",
+    "assets/minecraft/lang/fr_fr.json",
+    "assets/minecraft/models/block/carved_pumpkin.json",
+    "assets/minecraft/models/item/black_dye.json",
+    "assets/minecraft/models/item/blaze_powder.json",
+    "assets/minecraft/models/item/blue_dye.json",
+    "assets/minecraft/models/item/brown_dye.json",
+    "assets/minecraft/models/item/cyan_dye.json",
+    "assets/minecraft/models/item/gray_dye.json",
+    "assets/minecraft/models/item/green_dye.json",
+    "assets/minecraft/models/item/iron_hoe.json",
+    "assets/minecraft/models/item/light_blue_dye.json",
+    "assets/minecraft/models/item/light_gray_dye.json",
+    "assets/minecraft/models/item/lime_dye.json",
+    "assets/minecraft/models/item/magenta_dye.json",
+    "assets/minecraft/models/item/orange_dye.json",
+    "assets/minecraft/models/item/pink_dye.json",
+    "assets/minecraft/models/item/purple_dye.json",
+    "assets/minecraft/models/item/red_dye.json",
+    "assets/minecraft/models/item/white_dye.json",
+    "assets/minecraft/models/item/wooden_hoe.json",
+    "assets/minecraft/models/item/yellow_dye.json",
+    "assets/minecraft/texts/splashes.txt",
+    "assets/minecraft/textures/block/carved_pumpkin.png",
+    "assets/minecraft/textures/block/break/black_candle.png",
+    "assets/minecraft/textures/block/break/black_candle_lit.png",
+    "assets/minecraft/textures/block/break/blue_candle.png",
+    "assets/minecraft/textures/block/break/blue_candle_lit.png",
+    "assets/minecraft/textures/block/break/brown_candle.png",
+    "assets/minecraft/textures/block/break/brown_candle_lit.png",
+    "assets/minecraft/textures/block/break/candle.png",
+    "assets/minecraft/textures/block/break/candle_lit.png",
+    "assets/minecraft/textures/block/break/cauldron.png",
+    "assets/minecraft/textures/block/break/chest.png",
+    "assets/minecraft/textures/block/break/composter.png",
+    "assets/minecraft/textures/block/break/cyan_candle.png",
+    "assets/minecraft/textures/block/break/cyan_candle_lit.png",
+    "assets/minecraft/textures/block/break/ender_chest.png",
+    "assets/minecraft/textures/block/break/gray_candle.png",
+    "assets/minecraft/textures/block/break/gray_candle_lit.png",
+    "assets/minecraft/textures/block/break/green_candle.png",
+    "assets/minecraft/textures/block/break/green_candle_lit.png",
+    "assets/minecraft/textures/block/break/hopper.png",
+    "assets/minecraft/textures/block/break/light_blue_candle.png",
+    "assets/minecraft/textures/block/break/light_blue_candle_lit.png",
+    "assets/minecraft/textures/block/break/light_gray_candle.png",
+    "assets/minecraft/textures/block/break/light_gray_candle_lit.png",
+    "assets/minecraft/textures/block/break/lime_candle.png",
+    "assets/minecraft/textures/block/break/lime_candle_lit.png",
+    "assets/minecraft/textures/block/break/magenta_candle.png",
+    "assets/minecraft/textures/block/break/magenta_candle_lit.png",
+    "assets/minecraft/textures/block/break/orange_candle.png",
+    "assets/minecraft/textures/block/break/orange_candle_lit.png",
+    "assets/minecraft/textures/block/break/pink_candle.png",
+    "assets/minecraft/textures/block/break/pink_candle_lit.png",
+    "assets/minecraft/textures/block/break/purple_candle.png",
+    "assets/minecraft/textures/block/break/purple_candle_lit.png",
+    "assets/minecraft/textures/block/break/red_candle.png",
+    "assets/minecraft/textures/block/break/red_candle_lit.png",
+    "assets/minecraft/textures/block/break/white_candle.png",
+    "assets/minecraft/textures/block/break/white_candle_lit.png",
+    "assets/minecraft/textures/block/break/yellow_candle.png",
+    "assets/minecraft/textures/block/break/yellow_candle_lit.png",
+    "assets/minecraft/textures/block/large_sapling/large_acacia_sapling.png",
+    "assets/minecraft/textures/block/large_sapling/large_birch_sapling.png",
+    "assets/minecraft/textures/block/large_sapling/large_dark_oak_sapling.png",
+    "assets/minecraft/textures/block/large_sapling/large_jungle_sapling.png",
+    "assets/minecraft/textures/block/large_sapling/large_mangrove_propagule.png",
+    "assets/minecraft/textures/block/large_sapling/large_oak_sapling.png",
+    "assets/minecraft/textures/block/large_sapling/large_spruce_sapling.png",
+    "assets/minecraft/textures/block/note_block_pitch/note_block_side.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_0.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_1.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_10.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_11.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_12.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_13.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_14.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_15.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_16.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_17.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_18.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_19.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_2.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_20.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_21.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_22.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_23.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_24.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_3.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_4.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_5.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_6.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_7.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_8.png",
+    "assets/minecraft/textures/block/note_block_pitch/numerical_9.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_0.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_1.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_10.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_11.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_12.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_13.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_14.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_15.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_16.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_17.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_18.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_19.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_2.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_20.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_21.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_22.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_23.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_24.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_3.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_4.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_5.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_6.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_7.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_8.png",
+    "assets/minecraft/textures/block/note_block_pitch/pitch_9.png",
+    "assets/minecraft/textures/block/skull/skull.png",
+    "assets/minecraft/textures/block/skull/skull2.png",
+    "assets/minecraft/textures/block/skull/skull2.png.mcmeta",
+    "assets/minecraft/textures/block/variated/andesite/0.png",
+    "assets/minecraft/textures/block/variated/andesite/1.png",
+    "assets/minecraft/textures/block/variated/andesite/10.png",
+    "assets/minecraft/textures/block/variated/andesite/11.png",
+    "assets/minecraft/textures/block/variated/andesite/12.png",
+    "assets/minecraft/textures/block/variated/andesite/13.png",
+    "assets/minecraft/textures/block/variated/andesite/14.png",
+    "assets/minecraft/textures/block/variated/andesite/15.png",
+    "assets/minecraft/textures/block/variated/andesite/2.png",
+    "assets/minecraft/textures/block/variated/andesite/3.png",
+    "assets/minecraft/textures/block/variated/andesite/4.png",
+    "assets/minecraft/textures/block/variated/andesite/5.png",
+    "assets/minecraft/textures/block/variated/andesite/6.png",
+    "assets/minecraft/textures/block/variated/andesite/7.png",
+    "assets/minecraft/textures/block/variated/andesite/8.png",
+    "assets/minecraft/textures/block/variated/andesite/9.png",
+    "assets/minecraft/textures/block/variated/birch_log/0.png",
+    "assets/minecraft/textures/block/variated/birch_log/1.png",
+    "assets/minecraft/textures/block/variated/birch_log/2.png",
+    "assets/minecraft/textures/block/variated/birch_log/3.png",
+    "assets/minecraft/textures/block/variated/birch_log/4.png",
+    "assets/minecraft/textures/block/variated/birch_log/5.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/black_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/blue_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/bricks/bricks_01.png",
+    "assets/minecraft/textures/block/variated/bricks/bricks_02.png",
+    "assets/minecraft/textures/block/variated/bricks/bricks_03.png",
+    "assets/minecraft/textures/block/variated/bricks/bricks_04.png",
+    "assets/minecraft/textures/block/variated/bricks/bricks_05.png",
+    "assets/minecraft/textures/block/variated/bricks/bricks_06.png",
+    "assets/minecraft/textures/block/variated/bricks/bricks_07.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/brown_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/0.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/1.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/10.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/11.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/12.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/13.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/14.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/15.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/2.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/3.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/4.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/5.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/6.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/7.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/8.png",
+    "assets/minecraft/textures/block/variated/coarse_dirt/9.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/cyan_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/diorite/0.png",
+    "assets/minecraft/textures/block/variated/diorite/1.png",
+    "assets/minecraft/textures/block/variated/diorite/10.png",
+    "assets/minecraft/textures/block/variated/diorite/11.png",
+    "assets/minecraft/textures/block/variated/diorite/12.png",
+    "assets/minecraft/textures/block/variated/diorite/13.png",
+    "assets/minecraft/textures/block/variated/diorite/14.png",
+    "assets/minecraft/textures/block/variated/diorite/15.png",
+    "assets/minecraft/textures/block/variated/diorite/2.png",
+    "assets/minecraft/textures/block/variated/diorite/3.png",
+    "assets/minecraft/textures/block/variated/diorite/4.png",
+    "assets/minecraft/textures/block/variated/diorite/5.png",
+    "assets/minecraft/textures/block/variated/diorite/6.png",
+    "assets/minecraft/textures/block/variated/diorite/7.png",
+    "assets/minecraft/textures/block/variated/diorite/8.png",
+    "assets/minecraft/textures/block/variated/diorite/9.png",
+    "assets/minecraft/textures/block/variated/dirt/0.png",
+    "assets/minecraft/textures/block/variated/dirt/1.png",
+    "assets/minecraft/textures/block/variated/dirt/10.png",
+    "assets/minecraft/textures/block/variated/dirt/11.png",
+    "assets/minecraft/textures/block/variated/dirt/12.png",
+    "assets/minecraft/textures/block/variated/dirt/13.png",
+    "assets/minecraft/textures/block/variated/dirt/14.png",
+    "assets/minecraft/textures/block/variated/dirt/15.png",
+    "assets/minecraft/textures/block/variated/dirt/2.png",
+    "assets/minecraft/textures/block/variated/dirt/3.png",
+    "assets/minecraft/textures/block/variated/dirt/4.png",
+    "assets/minecraft/textures/block/variated/dirt/5.png",
+    "assets/minecraft/textures/block/variated/dirt/6.png",
+    "assets/minecraft/textures/block/variated/dirt/7.png",
+    "assets/minecraft/textures/block/variated/dirt/8.png",
+    "assets/minecraft/textures/block/variated/dirt/9.png",
+    "assets/minecraft/textures/block/variated/end_stone/0.png",
+    "assets/minecraft/textures/block/variated/end_stone/1.png",
+    "assets/minecraft/textures/block/variated/end_stone/2.png",
+    "assets/minecraft/textures/block/variated/end_stone/3.png",
+    "assets/minecraft/textures/block/variated/end_stone/4.png",
+    "assets/minecraft/textures/block/variated/end_stone/5.png",
+    "assets/minecraft/textures/block/variated/granite/0.png",
+    "assets/minecraft/textures/block/variated/granite/1.png",
+    "assets/minecraft/textures/block/variated/granite/10.png",
+    "assets/minecraft/textures/block/variated/granite/11.png",
+    "assets/minecraft/textures/block/variated/granite/12.png",
+    "assets/minecraft/textures/block/variated/granite/13.png",
+    "assets/minecraft/textures/block/variated/granite/14.png",
+    "assets/minecraft/textures/block/variated/granite/15.png",
+    "assets/minecraft/textures/block/variated/granite/2.png",
+    "assets/minecraft/textures/block/variated/granite/3.png",
+    "assets/minecraft/textures/block/variated/granite/4.png",
+    "assets/minecraft/textures/block/variated/granite/5.png",
+    "assets/minecraft/textures/block/variated/granite/6.png",
+    "assets/minecraft/textures/block/variated/granite/7.png",
+    "assets/minecraft/textures/block/variated/granite/8.png",
+    "assets/minecraft/textures/block/variated/granite/9.png",
+    "assets/minecraft/textures/block/variated/grass_block/grass_block_top_01.png",
+    "assets/minecraft/textures/block/variated/grass_block/grass_block_top_02.png",
+    "assets/minecraft/textures/block/variated/grass_block/grass_block_top_03.png",
+    "assets/minecraft/textures/block/variated/grass_block/grass_block_top_04.png",
+    "assets/minecraft/textures/block/variated/grass_block/grass_block_top_05.png",
+    "assets/minecraft/textures/block/variated/grass_block/grass_block_top_06.png",
+    "assets/minecraft/textures/block/variated/grass_block/grass_block_top_07.png",
+    "assets/minecraft/textures/block/variated/gravel/0.png",
+    "assets/minecraft/textures/block/variated/gravel/1.png",
+    "assets/minecraft/textures/block/variated/gravel/10.png",
+    "assets/minecraft/textures/block/variated/gravel/11.png",
+    "assets/minecraft/textures/block/variated/gravel/12.png",
+    "assets/minecraft/textures/block/variated/gravel/13.png",
+    "assets/minecraft/textures/block/variated/gravel/14.png",
+    "assets/minecraft/textures/block/variated/gravel/15.png",
+    "assets/minecraft/textures/block/variated/gravel/2.png",
+    "assets/minecraft/textures/block/variated/gravel/3.png",
+    "assets/minecraft/textures/block/variated/gravel/4.png",
+    "assets/minecraft/textures/block/variated/gravel/5.png",
+    "assets/minecraft/textures/block/variated/gravel/6.png",
+    "assets/minecraft/textures/block/variated/gravel/7.png",
+    "assets/minecraft/textures/block/variated/gravel/8.png",
+    "assets/minecraft/textures/block/variated/gravel/9.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/gray_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/green_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/light_blue_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/light_gray_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/lime_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/magenta_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/orange_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/pink_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/purple_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/0.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/1.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/10.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/11.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/2.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/3.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/4.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/5.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/6.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/7.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/8.png",
+    "assets/minecraft/textures/block/variated/red_mushroom_block/9.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/red_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/stone/0.png",
+    "assets/minecraft/textures/block/variated/stone/1.png",
+    "assets/minecraft/textures/block/variated/stone/10.png",
+    "assets/minecraft/textures/block/variated/stone/11.png",
+    "assets/minecraft/textures/block/variated/stone/12.png",
+    "assets/minecraft/textures/block/variated/stone/13.png",
+    "assets/minecraft/textures/block/variated/stone/14.png",
+    "assets/minecraft/textures/block/variated/stone/15.png",
+    "assets/minecraft/textures/block/variated/stone/2.png",
+    "assets/minecraft/textures/block/variated/stone/3.png",
+    "assets/minecraft/textures/block/variated/stone/4.png",
+    "assets/minecraft/textures/block/variated/stone/5.png",
+    "assets/minecraft/textures/block/variated/stone/6.png",
+    "assets/minecraft/textures/block/variated/stone/7.png",
+    "assets/minecraft/textures/block/variated/stone/8.png",
+    "assets/minecraft/textures/block/variated/stone/9.png",
+    "assets/minecraft/textures/block/variated/terracotta/0.png",
+    "assets/minecraft/textures/block/variated/terracotta/1.png",
+    "assets/minecraft/textures/block/variated/terracotta/10.png",
+    "assets/minecraft/textures/block/variated/terracotta/11.png",
+    "assets/minecraft/textures/block/variated/terracotta/12.png",
+    "assets/minecraft/textures/block/variated/terracotta/13.png",
+    "assets/minecraft/textures/block/variated/terracotta/14.png",
+    "assets/minecraft/textures/block/variated/terracotta/15.png",
+    "assets/minecraft/textures/block/variated/terracotta/2.png",
+    "assets/minecraft/textures/block/variated/terracotta/3.png",
+    "assets/minecraft/textures/block/variated/terracotta/4.png",
+    "assets/minecraft/textures/block/variated/terracotta/5.png",
+    "assets/minecraft/textures/block/variated/terracotta/6.png",
+    "assets/minecraft/textures/block/variated/terracotta/7.png",
+    "assets/minecraft/textures/block/variated/terracotta/8.png",
+    "assets/minecraft/textures/block/variated/terracotta/9.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/white_terracotta/9.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/0.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/1.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/10.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/11.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/12.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/13.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/14.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/15.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/2.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/3.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/4.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/5.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/6.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/7.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/8.png",
+    "assets/minecraft/textures/block/variated/yellow_terracotta/9.png",
+    "assets/minecraft/textures/gui/container/brewing_stand.png",
+    "assets/minecraft/textures/gui/sprites/hud/crosshair.png",
+    "assets/minecraft/textures/gui/sprites/hud/experience_bar_background.png",
+    "assets/minecraft/textures/gui/sprites/hud/experience_bar_progress.png",
+    "assets/minecraft/textures/gui/sprites/hud/food_empty.png",
+    "assets/minecraft/textures/gui/sprites/hud/food_full.png",
+    "assets/minecraft/textures/gui/sprites/hud/food_half.png",
+    "assets/minecraft/textures/gui/sprites/hud/hotbar.png",
+    "assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png",
+    "assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png",
+    "assets/minecraft/textures/gui/sprites/hud/heart/container.png",
+    "assets/minecraft/textures/gui/sprites/hud/heart/container_blinking.png",
+    "assets/minecraft/textures/gui/sprites/hud/heart/full.png",
+    "assets/minecraft/textures/gui/sprites/hud/heart/half.png",
+    "assets/minecraft/textures/item/armadillo_scute.png",
+    "assets/minecraft/textures/item/clay_ball.png",
+    "assets/minecraft/textures/item/feather.png",
+    "assets/minecraft/textures/item/flint.png",
+    "assets/minecraft/textures/item/glow_ink_sac.png",
+    "assets/minecraft/textures/item/gold_nugget.png",
+    "assets/minecraft/textures/item/gunpowder.png",
+    "assets/minecraft/textures/item/infested_chiseled_stone_bricks.png",
+    "assets/minecraft/textures/item/infested_cobblestone.png",
+    "assets/minecraft/textures/item/infested_cracked_stone_bricks.png",
+    "assets/minecraft/textures/item/infested_deepslate.png",
+    "assets/minecraft/textures/item/infested_deepslate_top.png",
+    "assets/minecraft/textures/item/infested_mossy_stone_bricks.png",
+    "assets/minecraft/textures/item/infested_stone.png",
+    "assets/minecraft/textures/item/infested_stone_bricks.png",
+    "assets/minecraft/textures/item/ink_sac.png",
+    "assets/minecraft/textures/item/iron_hoe.png",
+    "assets/minecraft/textures/item/netherite_scrap.png",
+    "assets/minecraft/textures/item/prismarine_shard.png",
+    "assets/minecraft/textures/item/sugar.png",
+    "assets/minecraft/textures/item/turtle_scute.png",
+    "assets/minecraft/textures/item/wheat.png",
+    "assets/minecraft/textures/item/wooden_hoe.png",
+    "assets/minecraft/textures/item/lg/1.pdn",
+    "assets/minecraft/textures/item/lg/ange.png",
+    "assets/minecraft/textures/item/lg/capitaine.png",
+    "assets/minecraft/textures/item/lg/chasseur.png",
+    "assets/minecraft/textures/item/lg/chasseur2.png",
+    "assets/minecraft/textures/item/lg/chienloup.png",
+    "assets/minecraft/textures/item/lg/corbeau.png",
+    "assets/minecraft/textures/item/lg/cupidon.png",
+    "assets/minecraft/textures/item/lg/cupidon2.png",
+    "assets/minecraft/textures/item/lg/loup_blanc.png",
+    "assets/minecraft/textures/item/lg/loup_garou.png",
+    "assets/minecraft/textures/item/lg/loup_garou2.png",
+    "assets/minecraft/textures/item/lg/loup_noir.png",
+    "assets/minecraft/textures/item/lg/petite_fille.png",
+    "assets/minecraft/textures/item/lg/petite_fille2.png",
+    "assets/minecraft/textures/item/lg/pyromane.png",
+    "assets/minecraft/textures/item/lg/renard.png",
+    "assets/minecraft/textures/item/lg/salvateur.png",
+    "assets/minecraft/textures/item/lg/sorciere.png",
+    "assets/minecraft/textures/item/lg/sorciere2.png",
+    "assets/minecraft/textures/item/lg/sorcière.png",
+    "assets/minecraft/textures/item/lg/sorcière2.png",
+    "assets/minecraft/textures/item/lg/villageois.png",
+    "assets/minecraft/textures/item/lg/villageois2.png",
+    "assets/minecraft/textures/item/lg/voleur.png",
+    "assets/minecraft/textures/item/lg/voyante.png",
+    "assets/minecraft/textures/item/lg/voyante2.png",
+    "assets/minecraft/textures/misc/dead_text.png",
+    "assets/minecraft/textures/misc/old_pumpkinblur.png",
+    "assets/minecraft/textures/misc/pumpkinblur.png",
+    "assets/minecraft/textures/misc/pumpkinblur.png.mcmeta"
+  ]
+}

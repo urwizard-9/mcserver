@@ -1,0 +1,19 @@
+name: LgmcLobby
+version: '0.3.0-trial'
+main: local.lgmc.LobbyPlugin
+api-version: '1.21'
+depend: [lgmc]
+commands:
+  ready:
+    description: 준비 또는 준비 취소
+    usage: /ready
+  lobby:
+    description: 게임 준비 메뉴
+    usage: /lobby
+  lgpreview:
+    description: 관리자용 읽기 전용 한국어 미리보기
+    usage: /lgpreview [player]
+permissions:
+  lgmclobby.preview:
+    description: 본인 또는 접속자에게 시험 미리보기 열기
+    default: op

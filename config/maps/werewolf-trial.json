@@ -1,0 +1,59 @@
+{
+  "author": "AnnaMayStudios",
+  "source": "https://www.planetminecraft.com/project/werewolf-mafia-game-in-minecraft-1-20-1-21/",
+  "download_page": "https://www.mediafire.com/file/2xqa4mec2846ro6/Werewolf_Map_Updated_Again.zip/file",
+  "sha256": "d908ddd5686e8c2ef4c7871078ddba5e7bfed59b510afee32df69614bde39bf1",
+  "backup": "backups/before-free-map-20261107-084851",
+  "world_version": "1.20.1",
+  "game_spawns": [
+    [
+      -5,
+      -5
+    ],
+    [
+      0,
+      -5
+    ],
+    [
+      5,
+      -5
+    ],
+    [
+      10,
+      -5
+    ],
+    [
+      15,
+      -5
+    ],
+    [
+      20,
+      -5
+    ],
+    [
+      -5,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      5,
+      15
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      15,
+      15
+    ],
+    [
+      20,
+      15
+    ]
+  ],
+  "note": "12 plaza positions, not verified 12 separate huts; commands disabled; private trial only"
+}

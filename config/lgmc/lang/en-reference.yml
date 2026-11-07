@@ -1,0 +1,472 @@
+# ============================================
+# English Language File
+# Werewolf Minecraft
+# ============================================
+
+# General messages
+general:
+  prefix: "&9[LG]&r "
+  scoreboard-title: "Werewolf"
+  game-starting: "&eGame starting in &c&l{time}&e second(s)"
+  game-started: "&eLet's go!"
+  game-reset: "&eThe game has been reset by an administrator."
+  game-in-progress: "&eA game is already in progress. You can observe but cannot participate in this game."
+  not-enough-players: "&9Not enough players to start. Minimum: 4 players."
+  too-many-players: "&cToo many players connected! Maximum: {max} players."
+  player-joined: "&a{player} joined the game"
+  player-left: "&c{player} left the game"
+  village: "&a&lVillage"
+  lovers: "&dLovers"
+  timer-advanced-capitaine: "&9Timer advanced as everyone voted for the {roles.capitaine.name}&9."
+  timer-advanced-vote: "&9Timer advanced as everyone voted."
+  player-disconnect: "&c{player} disconnected during the game!"
+  new-capitaine-random: "&9A new {roles.capitaine.name} &9has been randomly chosen: &6&l{player}&9."
+  you-are-dead: "&c&lYou are dead"
+
+# Game phases
+phases:
+  night: "&6------------------ &eNight {count} &6------------------"
+  day: "&6------------------ &eDay {count} &6------------------"
+  night-falls: "&9The {roles.villageois.name}&9 fall asleep peacefully."
+  day-breaks: "&9The {roles.villageois.name}&9 wake up."
+
+scoreboard:
+  players: "players"
+  alive: "Alive"
+  total: "Total"
+  nights: "Nights: {count}"
+  days: "Days: {count}"
+
+# Roles
+roles:
+  loup-garou:
+    name: "&c&lWerewolf"
+    title: "&6You are a {roles.loup-garou.name}"
+    subtitle: "&6You win with the {roles.loup-garou.name}&c&les"
+    plural: "&c&lWerewolves"
+  villageois:
+    name: "&a&lVillager"
+    title: "&6You are a {roles.villageois.name}"
+    subtitle: "&6You win with the {general.village}"
+  petite-fille:
+    name: "&a&lInsomniac"
+    title: "&6You are the {roles.petite-fille.name}"
+    subtitle: "&6You win with the {general.village}"
+  voyante:
+    name: "&a&lPsychic"
+    title: "&6You are the {roles.voyante.name}"
+    subtitle: "&6You win with the {general.village}"
+  sorciere:
+    name: "&a&lWitch"
+    title: "&6You are the {roles.sorciere.name}"
+    subtitle: "&6You win with the {general.village}"
+  cupidon:
+    name: "&a&lCupid"
+    title: "&6You are {roles.cupidon.name}"
+    subtitle: "&6You win with the {general.village}"
+  chasseur:
+    name: "&a&lHunter"
+    title: "&6You are {roles.chasseur.name}"
+    subtitle: "&6You win with the {general.village}"
+  ange:
+    name: "&b&lAngel"
+    title: "&6You are {roles.ange.name}"
+    subtitle: "&6You must be eliminated in the first vote"
+    becomes-villager: "&9You were not eliminated in the first vote, you become {roles.villageois.name}&9."
+  voleur:
+    name: "&e&lThief"
+    title: "&6You are {roles.voleur.name}"
+    subtitle: "&6You can steal someone's role"
+    stole-role: "&9You stole the role of &7&l{player}&9 and became {role}&9!"
+    victim-message: "&9Your role has been stolen by {roles.voleur.name}&9! You are now {roles.villageois.name}&9."
+  capitaine:
+    name: "&6&lCaptain"
+  spectator:
+    name: "Spectator"
+
+# Role actions
+actions:
+  cupidon:
+    announce: "&9{roles.cupidon.name} &9will choose two lovers..."
+    timer: "&a{roles.cupidon.name} &achooses the lovers"
+    first-lover: "&9First lover: &7&l{player}"
+    second-lover: "&9Second lover: &7&l{player}"
+    same-player: "&cYou cannot choose the same person twice!"
+    no-couple: "&9You didn't create a couple."
+    in-love: "&d❤ You fell in love with &l{player}&d! ❤"
+
+  voleur:
+    announce: "&9{roles.voleur.name} &9will choose a role to steal..."
+    timer: "&e{roles.voleur.name} &echooses a victim"
+    no-steal: "&9You didn't steal anyone's role."
+    stole: "&9You stole the role of &7&l{player}&9!"
+
+  voyante:
+    announce: "&9The {roles.voyante.name} &9will investigate a player."
+    timer: "&aThe {roles.voyante.name} &aperforms their consultation"
+    no-probe: "&9You didn't investigate anyone."
+    probe: "&9Vous investigated &7&l{player}&9, they are {role}&9."
+
+  loups-garous:
+    announce: "&9The {roles.loup-garou.name}&c&les &9will choose a victim."
+    timer: "&cThe {roles.loup-garou.name}&c&les &cchoose a new victim"
+    no-target: "&9You didn't designate anyone."
+    designated: "&9You designated &7&l{player}&9."
+    no-agreement: "&9You couldn't agree."
+
+  sorciere:
+    announce: "&9The {roles.sorciere.name} &9prepares a new potion."
+    timer: "&aThe {roles.sorciere.name} &aprepares her potions"
+    saved: "&9You decided to save &7&l{player}&9."
+    poisoned: "&9You poisoned &7&l{player}&9."
+    no-action: "&9You did nothing."
+    no-poison: "&9You didn't poison anyone."
+    target-info: "&6&l{player}&e is targeted"
+
+  chasseur:
+    announce: "&6&l{player} &9is about to die. However, they were the {roles.chasseur.name}&9. They will choose a player to take with them."
+    timer: "&aThe {roles.chasseur.name} &awill choose a player to take with them"
+    instruction: "&7You are about to die, choose a player to take with you"
+    shot: "&6&l{chasseur} &9shot &6&l{target}&9!"
+    aim: "&aYou aimed at &l{player}"
+    must-aim: "&cYou must aim at a player!"
+    already-dead: "&cThis player is already dead!"
+    cant-shoot-self: "&cYou can't shoot yourself!"
+
+# Vote
+vote:
+  capitaine:
+    announce: "&9The {roles.villageois.name} &9will elect a new {roles.capitaine.name}&9."
+    timer: "&9The {roles.villageois.name} &9elect a new {roles.capitaine.name}"
+    elected: "&9The village elected a new {roles.capitaine.name}&9, &6&l{player}&9."
+    voted-for: "&9You voted for &7&l{player}&9."
+    already-voted: "&cYou already voted for a new {roles.capitaine.name}&c."
+    no-vote: "&9You didn't vote for anyone."
+
+  day:
+    announce: "&9The {roles.villageois.name} &9debate who to eliminate."
+    timer: "&9The {roles.villageois.name} &9debate who to eliminate"
+    voted-for: "&9You voted for &7&l{player}&9."
+    already-voted: "&cYou already voted."
+    no-vote: "&9You didn't vote for anyone."
+    no-agreement: "&9The village couldn't agree on an elimination. No one is eliminated."
+    no-elimination: "&9No one was eliminated because the village didn't vote."
+
+  tiebreaker:
+    announce: "&9Tie - The {roles.capitaine.name} &9will break the tie"
+    capitaine-decides: "&9The {roles.capitaine.name} &9will break the tie."
+    capitaine-message: "&9The village couldn't decide and lets the {roles.capitaine.name} &9choose."
+    choice: "&9The village hesitates between &6&l{player1}&9 and &6&l{player2}&9."
+    instruction: "&7Choose the player you want to eliminate."
+    timer: "&aThe {roles.capitaine.name} &awill break the tie"
+    decided: "&9{roles.capitaine.name} &6&l{capitaine}&9 chose to eliminate &6&l{player}&9."
+
+# Captain succession
+succession:
+  testament-random: "&6&l{dying}&9 decided in their will to randomly choose the new {roles.capitaine.name}&9, &6&l{new}&9 was drawn."
+  testament-chosen: "&9In their will, &6&l{dying}&9 named &6&l{new}&9 as successor to {roles.capitaine.name}&9."
+  dying-message: "&9The village targets you, you are about to die."
+  instruction: "&7Please name your successor with the command (/testament <player>)"
+  book-received: "&9You received your &6&lTestament&9. Right-click with it to choose your successor."
+  timer: "&aThe {roles.capitaine.name} &awill name their successor"
+
+# Death messages
+death:
+  default: "&9The village lost a member, {player}&9 was {role}"
+  love: "&9Out of heartbreak, {player}&9 committed suicide, they were {role}"
+  werewolf: "{player} &9was devoured by the {roles.loup-garou.name}&c&les&9, they were {role}"
+  witch: "{player} &9was poisoned by the {roles.sorciere.name}&9, they were {role}"
+  hunter: "{player} &9took the {roles.chasseur.name}&9's last bullet, they were {role}"
+  vote: "&9The {general.village} &9decided to eliminate {player}, &9they were {role}"
+  disconnect: "{player} &9disconnected during the game, they were {role}"
+  no-deaths: "&9No players are waiting to die."
+
+# Victories
+victory:
+  lovers:
+    title: "&d&lVictory!"
+    subtitle: "&eThe {general.lovers}&e won!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&d&l{general.lovers} Victory!"
+    broadcast-players: "&e{lover1}&9 and &e{lover2}&9 won!"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  village:
+    title: "&a&lVictory!"
+    subtitle: "&eThe {general.village}&e won!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&a&l{general.village} Victory!"
+    broadcast-all-dead: "&9All {roles.loup-garou.name}&c&les &9have been eliminated!"
+    broadcast-stats: "&9Survivors: &e{alive}&9 / &e{total}"
+    broadcast-duration: "&9Duration: &e{nights}&9 nights and &e{days}&9 days"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  werewolves:
+    title: "&a&lVictory!"
+    subtitle: "&eThe {roles.loup-garou.name}&c&les&e won!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&c&l{roles.loup-garou.name}&c&les Victory!"
+    broadcast-domination: "&9The {roles.loup-garou.name}&c&les &9dominated the village!"
+    broadcast-wolves: "&9Wolves remaining: &e{wolves}"
+    broadcast-villagers: "&9{roles.villageois.name} remaining: &e{villagers}"
+    broadcast-duration: "&9Duration: &e{nights}&9 nights and &e{days}&9 days"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  stalemate:
+    title: "&7&lStalemate!"
+    subtitle: "&8No one won!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&7&lStalemate!"
+    broadcast-message: "&9The {roles.chasseur.name} &9and {roles.loup-garou.name} &9killed each other!"
+    broadcast-no-winner: "&8No one won!"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  ange:
+    title: "&b&lVictory!"
+    subtitle: "&eThe {roles.ange.name}&e won!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&b&l{roles.ange.name} Victory &b&l!"
+    broadcast-message: "&9{player}&9 was eliminated in the first vote and wins as the {roles.ange.name}&9!"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  defeat:
+    title: "&c&lDefeat!"
+
+# GUI
+gui:
+  vote: "&4&lChoose a culprit to eliminate"
+  vote-capitaine: "&d&lVote for the new {roles.capitaine.name}"
+  testament: "&d&lChoose your successor"
+  loup-garou: "&4&lChoose a victim"
+  voyante: "&d&lChoose a player to investigate"
+  sorciere: "&eChoose an action to perform"
+  sorciere-poison: "&4&lChoose a target"
+  cupidon-first: "&dChoose the first lover"
+  cupidon-second: "&dChoose the second lover"
+  voleur: "&eChoose a player to steal their role"
+
+  items:
+    werewolf-attack: "&4&lDesignate victim"
+    vote-paper: "&a&lVote for the new {roles.capitaine.name}"
+    vote-day: "&a&lVote"
+    testament: "&6&lTestament"
+    skip: "&c&lDo nothing"
+    skip-gray: "&7&lDo nothing"
+    feather-skip: "&7&lSkip your turn"
+    crystal: "&b&lCrystal ball"
+    life-potion: "&a&lLife Potion"
+    life-potion-lore: "&9Save {player}'s life."
+    death-potion: "&c&lDeath Potion"
+    death-potion-lore: "&9Poison someone."
+    first-lover: "&d❤ First lover"
+    steal-role: "&e&lSteal role"
+    designate-lovers: "&d&lDesignate lovers"
+  
+  click-mode:
+    vote-player: "&aYou voted for &l{player}&a."
+    target-player: "&cYou targeted &l{player}&c."
+    hold-item: "&cYou must hold the appropriate item to vote!"
+    left-click-hint: "&9Left-click a player to target them."
+
+# Commands
+commands:
+  no-permission: "&cYou don't have permission to use this command."
+  player-only: "&cThis command must be executed by a player."
+  blocked-during-game: "&cThis command is disabled during a game to prevent cheating."
+
+  lg:
+    unknown-subcommand: "&cUnknown subcommand: {subcommand}. Use /lg help for more information."
+
+  lgstart:
+    usage: "&cUsage: /lgstart"
+    started: "&aStarting Werewolf game..."
+
+  lgstop:
+    usage: "&cUsage: /lgstop"
+    stopped: "&eStopping current game..."
+
+  lgsetup:
+    usage: "&cUsage: /lgsetup <campfire|chasseur|spawn <number>>"
+    campfire-set: "&aCampfire location set to your position."
+    chasseur-set: "&aHunter teleport location set to your position."
+    spawn-set: "&aSpawn point #{number} set to your position."
+    help-header: "&6=== Setup Commands ==="
+    help-campfire: "&e/lgsetup campfire&f - Set campfire location"
+    help-chasseurtp: "&e/lgsetup chasseurtp&f - Set hunter teleport location"
+    help-spawn: "&e/lgsetup spawn <number>&f - Set a spawn point"
+    help-info: "&e/lgsetup info&f - Show configuration information"
+    info-header: "&6=== Werewolf Configuration ==="
+    info-campfire: "&eCampfire: &f{location}"
+    info-chasseur: "&eHunter TP: &f{location}"
+    info-spawns: "&eSpawn points: &f{count}"
+    not-set: "Not set"
+
+  lgreload:
+    usage: "&cUsage: /lgreload"
+    config-updated: "&e⚠ Configuration updated from v{old} to v{new}"
+    reloading: "&e⟳ Reloading configuration..."
+    reloaded: "&a✔ Configuration reloaded successfully!"
+    language-info: "&7Language: &b{language}"
+    not-capitaine: "&cYou are not the {roles.capitaine.name}&c."
+    player-not-found: "&cPlayer is not online."
+    cant-self: "&cYou cannot name yourself, &lyou are dying&c."
+    player-dead: "&cThis player is not alive."
+
+  testament:
+    usage: "&cUsage: /testament <player>"
+    not-capitaine: "&cYou are not the captain."
+    not-dying: "&cYou are not dying."
+    player-not-found: "&cPlayer not found."
+    player-dead: "&cThis player is dead."
+    success: "&aYou named &l{player}&a as successor."
+
+  goodguys:
+    usage: "&cUsage: /goodGuys"
+    header: "&9=== Good Guys Alive ==="
+    player: "&a- {player}"
+
+  love:
+    usage: "&cUsage: /love <message>"
+    not-lover: "&cYou are not a lover or your love is unrequited."
+  opengui:
+    usage: "&cUsage: /lgopengui <sorciere|voyante|loupgarou|vote|capitaine|sorcierePoison|cupidon|voleur>"
+  linkDiscord:
+    usage: "&cUsage: /linkDiscord <uuid>"
+    uuid-invalid: "&c❌ The provided UUID is invalid!"
+    linked: "&a✔ Your Minecraft account has been linked to Discord!"
+    websocket-error: "&c❌ Unable to connect to the Discord bot!"
+    websocket-disabled: "&c❌ Unable to link accounts as WebSocket actions are disabled in the configuration."
+  wsaction:
+    invalid-action: "&cInvalid action. Valid options: gamestart, gameover, player_died <player>, muteall, demuteall."
+    websocket-error: "&c❌ Communication error with the Discord bot. Please try again later."
+    websocket-disabled: "&c❌ WebSocket actions are disabled in the configuration."
+    gamestart:
+      sent: "&a✔ 'gamestart' action sent to Discord bot."
+    gameover:
+      sent: "&a✔ 'gameover' action sent to Discord bot."
+    player_died:
+      usage: "&cUsage: /wsaction player_died <player>"
+      sent: "&a✔ 'player_dead' action for player '{player}' sent to Discord bot."
+    muteall:
+      sent: "&a✔ 'muteall' action sent to Discord bot."
+    demuteall:
+      sent: "&a✔ 'demuteall' action sent to Discord bot."
+    usage: "&cUsage: /wsaction <gamestart|gameover|player_died <player>|muteall|demuteall>"
+
+
+# Chat
+chat:
+  cannot-chat: "&cYou cannot speak at night!"
+
+# Errors
+errors:
+  game-not-started: "&cNo game is currently running."
+  game-already-started: "&cA game is already in progress."
+  not-in-game: "&cYou are not in the game."
+  cannot-vote-now: "&cYou cannot vote now."
+  config-error: "&c❌ Error reloading configuration!"
+  ressource-pack-needed: "&c❌ Resource pack is required to play!"
+  ressource-pack-failed: "&c❌ Failed to download resource pack!"
+
+motd:
+  waiting: "&e{players}&9/&e{max} &9players &9| Waiting for players..."
+  in-progress: "&cGame in progress &9| You can spectate!"
+  starting: "Starting soon! &9| Join quickly!"
+  full: "&cServer full &9| Try again later!"
+
+# Admin GUI
+admin:
+  main:
+    title: "&c&lAdmin Configuration"
+    role-config: "&6Role Configuration"
+    role-config-desc:
+      - "&7Enable/disable roles"
+      - "&7Configure spawn chances"
+      - "&7Set player thresholds"
+    game-settings: "&6Game Settings"
+    game-settings-desc:
+      - "&7Minimum players"
+      - "&7Wolf thresholds"
+      - "&7Countdown duration"
+    timer-config: "&6Timer Configuration"
+    timer-config-desc:
+      - "&7Configure phase durations"
+      - "&7Set custom timers"
+      - "&7Optimize game flow"
+    save: "&aSave Configuration"
+    save-desc:
+      - "&7Save all changes to config.yml"
+      - "&eClick to save"
+    reload: "&eReload Configuration"
+    reload-desc:
+      - "&7Reload config from file"
+      - "&cUnsaved changes will be lost!"
+    close: "&cClose"
+    saved: "&aConfiguration saved successfully!"
+    reloaded: "&eConfiguration reloaded!"
+  
+  roles:
+    title: "&6Role Configuration"
+    enabled: "&aEnabled"
+    disabled: "&cDisabled"
+    status: "&7Status: {status}"
+    threshold: "&7Threshold: &e{threshold} players"
+    chance: "&7Chance: &e{chance}%"
+    toggle: "&eLeft-click: &fToggle enable/disable"
+    configure: "&eRight-click: &fConfigure settings"
+    enabled-msg: "&6{role} &7is now &aenabled"
+    disabled-msg: "&6{role} &7is now &cdisabled"
+    saved: "&aRole configuration saved!"
+    back: "&e← Back"
+    save: "&aSave Changes"
+  
+  role-detail:
+    title: "&6{role} Configuration"
+    player-threshold: "&bPlayer Threshold"
+    threshold-current: "&7Current: &e{threshold} players"
+    threshold-desc: "&7Minimum players needed for this role"
+    spawn-chance: "&dSpawn Chance"
+    chance-current: "&7Current: &e{chance}%"
+    chance-desc: "&7Probability of role appearing"
+    decrease: "&c- Decrease"
+    increase: "&a+ Increase"
+    decrease-lore:
+      - "&7Left-click: {small}"
+      - "&7Right-click: {large}"
+    increase-lore:
+      - "&7Left-click: {small}"
+      - "&7Right-click: {large}"
+    set-to: "&eSet to {value}"
+    threshold-set: "&6{role} &7threshold set to &e{value}"
+    chance-set: "&6{role} &7chance set to &e{value}%"
+  
+  game:
+    title: "&6Game Settings"
+    min-players: "&bMinimum Players"
+    two-wolves: "&bTwo Wolves Threshold"
+    countdown: "&bCountdown Duration"
+    current: "&7Current: &e{value}"
+    range: "&7Range: {min}-{max}"
+    set: "&6{setting} &7set to &e{value}"
+    saved: "&aGame settings saved!"
+  
+  timers:
+    title: "&6Timer Configuration"
+    voleur: "&eThief"
+    cupidon: "&eCupid"
+    voyante: "&ePsychic"
+    loups-garous: "&eWerewolves"
+    sorciere: "&eWitch"
+    vote-capitaine: "&eCaptain Vote"
+    debat: "&eDebate"
+    chasseur: "&eHunter"
+    succession: "&eCaptain Succession"
+    tiebreaker: "&eCaptain Tiebreaker"
+    current: "&7Current: &e{time} seconds"
+    controls:
+      - "&eLeft-click: &f+10s"
+      - "&eRight-click: &f-10s"
+      - "&eShift+Left: &f+30s"
+      - "&eShift+Right: &f-30s"
+    set: "&6{timer} &7timer set to &e{time} seconds"
+    saved: "&aTimer configuration saved!"

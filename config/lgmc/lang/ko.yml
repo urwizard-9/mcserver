@@ -1,0 +1,456 @@
+# Korean translation for LGMC 5.1.3; keys/placeholders preserved.
+
+general:
+  prefix: "&9[마피아]&r "
+  scoreboard-title: "마피아"
+  game-starting: "&e게임 시작까지 &c&l{time}&e초"
+  game-started: "&e게임을 시작합니다!"
+  game-reset: "&e관리자가 게임을 초기화했습니다."
+  game-in-progress: "&e게임 진행 중입니다. 이번 판에는 참가할 수 없으며 관전만 가능합니다."
+  not-enough-players: "&9시작하려면 최소 4명이 필요합니다."
+  too-many-players: "&c접속 인원이 너무 많습니다! 최대 {max}명입니다."
+  player-joined: "&a{player} 님이 입장했습니다."
+  player-left: "&c{player} 님이 퇴장했습니다."
+  village: "&a&l마을"
+  lovers: "&d연인"
+  timer-advanced-capitaine: "&9모두 {roles.capitaine.name}&9 투표를 마쳐 다음으로 진행합니다."
+  timer-advanced-vote: "&9모두 투표를 마쳐 다음으로 진행합니다."
+  player-disconnect: "&c{player} 님이 게임 중 접속을 종료했습니다!"
+  new-capitaine-random: "&9새 {roles.capitaine.name}&9 무작위 선정: &6&l{player}"
+  you-are-dead: "&c&l탈락했습니다"
+
+phases:
+  night: "&6------------------ &e{count}번째 밤 &6------------------"
+  day: "&6------------------ &e{count}번째 낮 &6------------------"
+  night-falls: "&9{roles.villageois.name}&9들이 잠에 듭니다."
+  day-breaks: "&9{roles.villageois.name}&9들이 깨어납니다."
+
+scoreboard:
+  players: "명"
+  alive: "생존"
+  total: "전체"
+  nights: "{count}번째 밤"
+  days: "{count}번째 낮"
+
+roles:
+  loup-garou:
+    name: "&c&l늑대인간"
+    title: "&6당신의 역할: {roles.loup-garou.name}"
+    subtitle: "&6{roles.loup-garou.name}&6 진영과 함께 승리하세요"
+    plural: "&c&l늑대인간"
+  villageois:
+    name: "&a&l주민"
+    title: "&6당신의 역할: {roles.villageois.name}"
+    subtitle: "&6{general.village}&6 진영과 함께 승리하세요"
+  petite-fille:
+    name: "&a&l잠 못 드는 소녀"
+    title: "&6당신의 역할: {roles.petite-fille.name}"
+    subtitle: "&6{general.village}&6 진영과 함께 승리하세요"
+  voyante:
+    name: "&a&l예언자"
+    title: "&6당신의 역할: {roles.voyante.name}"
+    subtitle: "&6{general.village}&6 진영과 함께 승리하세요"
+  sorciere:
+    name: "&a&l마녀"
+    title: "&6당신의 역할: {roles.sorciere.name}"
+    subtitle: "&6{general.village}&6 진영과 함께 승리하세요"
+  cupidon:
+    name: "&a&l큐피드"
+    title: "&6당신의 역할: {roles.cupidon.name}"
+    subtitle: "&6{general.village}&6 진영과 함께 승리하세요"
+  chasseur:
+    name: "&a&l사냥꾼"
+    title: "&6당신의 역할: {roles.chasseur.name}"
+    subtitle: "&6{general.village}&6 진영과 함께 승리하세요"
+  ange:
+    name: "&b&l천사"
+    title: "&6당신의 역할: {roles.ange.name}"
+    subtitle: "&6첫 번째 투표에서 탈락해야 합니다"
+    becomes-villager: "&9첫 번째 투표에서 탈락하지 않아 {roles.villageois.name}&9이 되었습니다."
+  voleur:
+    name: "&e&l도둑"
+    title: "&6당신의 역할: {roles.voleur.name}"
+    subtitle: "&6다른 사람의 역할을 훔칠 수 있습니다"
+    stole-role: "&9&7&l{player}&9 님의 역할을 훔쳐 {role}&9이 되었습니다!"
+    victim-message: "&9{roles.voleur.name}&9에게 역할을 빼앗겼습니다! 이제 {roles.villageois.name}&9입니다."
+  capitaine:
+    name: "&6&l촌장"
+  spectator:
+    name: "관전자"
+
+actions:
+  cupidon:
+    announce: "&9{roles.cupidon.name}&9가 두 연인을 선택합니다."
+    timer: "&a{roles.cupidon.name}&a의 연인 선택"
+    first-lover: "&9첫 번째 연인: &7&l{player}"
+    second-lover: "&9두 번째 연인: &7&l{player}"
+    same-player: "&c같은 사람을 두 번 선택할 수 없습니다!"
+    no-couple: "&9연인을 선택하지 않았습니다."
+    in-love: "&d❤ &l{player}&d 님과 연인이 되었습니다! ❤"
+
+  voleur:
+    announce: "&9{roles.voleur.name}&9이 역할을 훔칠 대상을 선택합니다."
+    timer: "&e{roles.voleur.name}&e의 대상 선택"
+    no-steal: "&9누구의 역할도 훔치지 않았습니다."
+    stole: "&9&7&l{player}&9 님의 역할을 훔쳤습니다!"
+
+  voyante:
+    announce: "&9{roles.voyante.name}&9가 한 사람의 역할을 조사합니다."
+    timer: "&a{roles.voyante.name}&a의 역할 조사"
+    no-probe: "&9아무도 조사하지 않았습니다."
+    probe: "&9&7&l{player}&9 님의 역할은 {role}&9입니다."
+
+  loups-garous:
+    announce: "&9{roles.loup-garou.name}&9들이 공격할 대상을 선택합니다."
+    timer: "&c{roles.loup-garou.name}&c의 공격 대상 선택"
+    no-target: "&9대상을 지정하지 않았습니다."
+    designated: "&9&7&l{player}&9 님을 지정했습니다."
+    no-agreement: "&9의견이 일치하지 않았습니다."
+
+  sorciere:
+    announce: "&9{roles.sorciere.name}&9가 물약을 준비합니다."
+    timer: "&a{roles.sorciere.name}&a의 물약 사용"
+    saved: "&9&7&l{player}&9 님을 살리기로 했습니다."
+    poisoned: "&9&7&l{player}&9 님에게 독약을 사용했습니다."
+    no-action: "&9아무 행동도 하지 않았습니다."
+    no-poison: "&9독약을 사용하지 않았습니다."
+    target-info: "&6&l{player}&e 님이 공격 대상으로 지정됐습니다"
+
+  chasseur:
+    announce: "&6&l{player}&9 님이 탈락하기 직전입니다. {roles.chasseur.name}&9이므로 함께 탈락시킬 대상을 선택합니다."
+    timer: "&a{roles.chasseur.name}&a의 마지막 대상 선택"
+    instruction: "&7함께 탈락시킬 대상을 선택하세요"
+    shot: "&6&l{chasseur}&9 님이 &6&l{target}&9 님을 쐈습니다!"
+    aim: "&a&l{player}&a 님을 조준했습니다"
+    must-aim: "&c플레이어를 조준해야 합니다!"
+    already-dead: "&c이미 탈락한 플레이어입니다!"
+    cant-shoot-self: "&c자신을 쏠 수 없습니다!"
+
+vote:
+  capitaine:
+    announce: "&9{roles.villageois.name}&9들이 새 {roles.capitaine.name}&9을 선출합니다."
+    timer: "&9{roles.villageois.name}&9들의 {roles.capitaine.name}&9 선출"
+    elected: "&9새 {roles.capitaine.name}&9으로 &6&l{player}&9 님이 선출됐습니다."
+    voted-for: "&9&7&l{player}&9 님에게 투표했습니다."
+    already-voted: "&c이미 {roles.capitaine.name}&c 선출 투표를 했습니다."
+    no-vote: "&9투표하지 않았습니다."
+
+  day:
+    announce: "&9{roles.villageois.name}&9들이 탈락시킬 사람을 토론합니다."
+    timer: "&9{roles.villageois.name}&9들의 추방 토론"
+    voted-for: "&9&7&l{player}&9 님에게 투표했습니다."
+    already-voted: "&c이미 투표했습니다."
+    no-vote: "&9투표하지 않았습니다."
+    no-agreement: "&9의견이 일치하지 않아 아무도 탈락하지 않습니다."
+    no-elimination: "&9투표가 없어 아무도 탈락하지 않습니다."
+
+  tiebreaker:
+    announce: "&9동률입니다. {roles.capitaine.name}&9이 결정합니다."
+    capitaine-decides: "&9{roles.capitaine.name}&9이 최종 결정합니다."
+    capitaine-message: "&9마을의 의견이 갈려 {roles.capitaine.name}&9에게 결정을 맡깁니다."
+    choice: "&9후보: &6&l{player1}&9 / &6&l{player2}"
+    instruction: "&7탈락시킬 플레이어를 선택하세요."
+    timer: "&a{roles.capitaine.name}&a의 동률 결정"
+    decided: "&9{roles.capitaine.name} &6&l{capitaine}&9 님이 &6&l{player}&9 님의 탈락을 결정했습니다."
+
+succession:
+  testament-random: "&6&l{dying}&9 님의 유언에 따라 새 {roles.capitaine.name}&9으로 &6&l{new}&9 님이 무작위 선정됐습니다."
+  testament-chosen: "&6&l{dying}&9 님이 유언으로 &6&l{new}&9 님을 다음 {roles.capitaine.name}&9으로 지명했습니다."
+  dying-message: "&9탈락 대상으로 지목됐습니다. 후계자를 정해 주세요."
+  instruction: "&7/testament <player> 명령으로 후계자를 지명하세요."
+  book-received: "&6&l유언장&9을 받았습니다. 들고 사용하여 후계자를 선택하세요."
+  timer: "&a{roles.capitaine.name}&a의 후계자 지명"
+
+death:
+  default: "&9{player}&9 님이 탈락했습니다. 역할: {role}"
+  love: "&9연인을 잃은 {player}&9 님도 함께 탈락했습니다. 역할: {role}"
+  werewolf: "{player}&9 님이 {roles.loup-garou.name}&9의 공격으로 탈락했습니다. 역할: {role}"
+  witch: "{player}&9 님이 {roles.sorciere.name}&9의 독약으로 탈락했습니다. 역할: {role}"
+  hunter: "{player}&9 님이 {roles.chasseur.name}&9의 마지막 사격으로 탈락했습니다. 역할: {role}"
+  vote: "&9{general.village}&9의 투표로 {player}&9 님이 탈락했습니다. 역할: {role}"
+  disconnect: "{player}&9 님이 게임 중 접속을 종료했습니다. 역할: {role}"
+  no-deaths: "&9탈락 처리할 플레이어가 없습니다."
+
+victory:
+  lovers:
+    title: "&d&l승리!"
+    subtitle: "&e{general.lovers}&e이 승리했습니다!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&d&l{general.lovers} 승리!"
+    broadcast-players: "&e{lover1}&9 님과 &e{lover2}&9 님이 승리했습니다!"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  village:
+    title: "&a&l승리!"
+    subtitle: "&e{general.village}&e 진영이 승리했습니다!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&a&l{general.village} 진영 승리!"
+    broadcast-all-dead: "&9모든 {roles.loup-garou.name}&9이 탈락했습니다!"
+    broadcast-stats: "&9생존: &e{alive}&9 / &e{total}"
+    broadcast-duration: "&9진행: 밤 &e{nights}&9회 / 낮 &e{days}&9회"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  werewolves:
+    title: "&a&l승리!"
+    subtitle: "&e{roles.loup-garou.name}&e 진영이 승리했습니다!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&c&l{roles.loup-garou.name} 진영 승리!"
+    broadcast-domination: "&9{roles.loup-garou.name}&9들이 마을을 장악했습니다!"
+    broadcast-wolves: "&9남은 늑대인간: &e{wolves}"
+    broadcast-villagers: "&9남은 {roles.villageois.name}&9: &e{villagers}"
+    broadcast-duration: "&9진행: 밤 &e{nights}&9회 / 낮 &e{days}&9회"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  stalemate:
+    title: "&7&l무승부!"
+    subtitle: "&8승자가 없습니다!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&7&l무승부!"
+    broadcast-message: "&9{roles.chasseur.name}&9과 {roles.loup-garou.name}&9이 서로를 쓰러뜨렸습니다!"
+    broadcast-no-winner: "&8승자가 없습니다!"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  ange:
+    title: "&b&l승리!"
+    subtitle: "&e{roles.ange.name}&e가 승리했습니다!"
+    broadcast-header: "&6═══════════════════════════════════"
+    broadcast-title: "&b&l{roles.ange.name} 승리!"
+    broadcast-message: "&9{player}&9 님이 첫 투표에서 탈락하여 {roles.ange.name}&9로 승리했습니다!"
+    broadcast-footer: "&6═══════════════════════════════════"
+
+  defeat:
+    title: "&c&l패배!"
+
+gui:
+  vote: "&4&l탈락시킬 대상 선택"
+  vote-capitaine: "&d&l{roles.capitaine.name} 투표"
+  testament: "&d&l후계자 선택"
+  loup-garou: "&4&l공격 대상 선택"
+  voyante: "&d&l조사 대상 선택"
+  sorciere: "&e사용할 능력 선택"
+  sorciere-poison: "&4&l독약 대상 선택"
+  cupidon-first: "&d첫 번째 연인 선택"
+  cupidon-second: "&d두 번째 연인 선택"
+  voleur: "&e역할을 훔칠 대상 선택"
+
+  items:
+    werewolf-attack: "&4&l공격 대상 지정"
+    vote-paper: "&a&l{roles.capitaine.name} 투표"
+    vote-day: "&a&l투표"
+    testament: "&6&l유언장"
+    skip: "&c&l행동하지 않기"
+    skip-gray: "&7&l행동하지 않기"
+    feather-skip: "&7&l차례 넘기기"
+    crystal: "&b&l수정구"
+    life-potion: "&a&l생명 물약"
+    life-potion-lore: "&9{player} 님을 살립니다."
+    death-potion: "&c&l독약"
+    death-potion-lore: "&9선택한 대상에게 독약을 사용합니다."
+    first-lover: "&d❤ 첫 번째 연인"
+    steal-role: "&e&l역할 훔치기"
+    designate-lovers: "&d&l연인 지정"
+  
+  click-mode:
+    vote-player: "&a&l{player}&a 님에게 투표했습니다."
+    target-player: "&c&l{player}&c 님을 대상으로 지정했습니다."
+    hold-item: "&c투표에 필요한 아이템을 손에 들어야 합니다!"
+    left-click-hint: "&9플레이어를 공격하는 조작으로 대상을 지정하세요."
+
+commands:
+  no-permission: "&c이 명령을 사용할 권한이 없습니다."
+  player-only: "&c플레이어만 사용할 수 있는 명령입니다."
+  blocked-during-game: "&c공정한 진행을 위해 게임 중에는 사용할 수 없습니다."
+
+  lg:
+    unknown-subcommand: "&c알 수 없는 하위 명령: {subcommand}. /lg help를 확인하세요."
+
+  lgstart:
+    usage: "&c사용법: /lgstart"
+    started: "&a마피아 게임을 시작합니다..."
+
+  lgstop:
+    usage: "&c사용법: /lgstop"
+    stopped: "&e현재 게임을 종료합니다..."
+
+  lgsetup:
+    usage: "&c사용법: /lgsetup <campfire|chasseur|spawn <number>>"
+    campfire-set: "&a현재 위치를 캠프파이어 위치로 설정했습니다."
+    chasseur-set: "&a현재 위치를 사냥꾼 이동 위치로 설정했습니다."
+    spawn-set: "&a현재 위치를 {number}번 시작 위치로 설정했습니다."
+    help-header: "&6=== 위치 설정 명령 ==="
+    help-campfire: "&e/lgsetup campfire&f - 캠프파이어 위치 설정"
+    help-chasseurtp: "&e/lgsetup chasseurtp&f - 사냥꾼 이동 위치 설정"
+    help-spawn: "&e/lgsetup spawn <number>&f - 시작 위치 설정"
+    help-info: "&e/lgsetup info&f - 설정 정보 확인"
+    info-header: "&6=== 마피아 설정 ==="
+    info-campfire: "&e캠프파이어: &f{location}"
+    info-chasseur: "&e사냥꾼 이동: &f{location}"
+    info-spawns: "&e시작 위치 수: &f{count}"
+    not-set: "미설정"
+
+  lgreload:
+    usage: "&c사용법: /lgreload"
+    config-updated: "&e설정 버전 갱신: v{old} → v{new}"
+    reloading: "&e설정을 다시 불러오는 중입니다..."
+    reloaded: "&a설정을 다시 불러왔습니다!"
+    language-info: "&7언어: &b{language}"
+    not-capitaine: "&c당신은 {roles.capitaine.name}&c이 아닙니다."
+    player-not-found: "&c접속 중인 플레이어가 아닙니다."
+    cant-self: "&c탈락 직전이므로 자신을 후계자로 지명할 수 없습니다."
+    player-dead: "&c생존한 플레이어가 아닙니다."
+
+  testament:
+    usage: "&c사용법: /testament <player>"
+    not-capitaine: "&c당신은 촌장이 아닙니다."
+    not-dying: "&c지금은 후계자를 지명할 수 없습니다."
+    player-not-found: "&c플레이어를 찾을 수 없습니다."
+    player-dead: "&c이미 탈락한 플레이어입니다."
+    success: "&a&l{player}&a 님을 후계자로 지명했습니다."
+
+  goodguys:
+    usage: "&c사용법: /goodGuys"
+    header: "&9=== 생존한 마을 진영 ==="
+    player: "&a- {player}"
+
+  love:
+    usage: "&c사용법: /love <message>"
+    not-lover: "&c연인 관계가 아니거나 상대와 연결되지 않았습니다."
+  opengui:
+    usage: "&c사용법: /lgopengui <sorciere|voyante|loupgarou|vote|capitaine|sorcierePoison|cupidon|voleur>"
+  linkDiscord:
+    usage: "&c사용법: /linkDiscord <uuid>"
+    uuid-invalid: "&c입력한 UUID가 올바르지 않습니다!"
+    linked: "&aMinecraft 계정을 Discord에 연결했습니다!"
+    websocket-error: "&cDiscord 봇에 연결할 수 없습니다!"
+    websocket-disabled: "&c설정에서 WebSocket 기능이 꺼져 있어 계정을 연결할 수 없습니다."
+  wsaction:
+    invalid-action: "&c사용 가능한 작업: gamestart, gameover, player_died <player>, muteall, demuteall."
+    websocket-error: "&cDiscord 봇 통신 오류입니다. 나중에 다시 시도하세요."
+    websocket-disabled: "&c설정에서 WebSocket 기능이 꺼져 있습니다."
+    gamestart:
+      sent: "&aDiscord 봇에 'gamestart' 작업을 보냈습니다."
+    gameover:
+      sent: "&aDiscord 봇에 'gameover' 작업을 보냈습니다."
+    player_died:
+      usage: "&c사용법: /wsaction player_died <player>"
+      sent: "&aDiscord 봇에 '{player}' 님의 'player_dead' 작업을 보냈습니다."
+    muteall:
+      sent: "&aDiscord 봇에 'muteall' 작업을 보냈습니다."
+    demuteall:
+      sent: "&aDiscord 봇에 'demuteall' 작업을 보냈습니다."
+    usage: "&c사용법: /wsaction <gamestart|gameover|player_died <player>|muteall|demuteall>"
+
+
+chat:
+  cannot-chat: "&c밤에는 말할 수 없습니다!"
+
+errors:
+  game-not-started: "&c진행 중인 게임이 없습니다."
+  game-already-started: "&c이미 게임이 진행 중입니다."
+  not-in-game: "&c게임 참가자가 아닙니다."
+  cannot-vote-now: "&c지금은 투표할 수 없습니다."
+  config-error: "&c설정을 다시 불러오지 못했습니다!"
+  ressource-pack-needed: "&c플레이하려면 리소스팩을 적용해야 합니다!"
+  ressource-pack-failed: "&c리소스팩을 다운로드하지 못했습니다!"
+
+motd:
+  waiting: "&e{players}&9/&e{max}&9명 | 준비 대기 중"
+  in-progress: "&c게임 진행 중 &9| 관전 가능"
+  starting: "&e곧 시작합니다! &9| 참가 준비 중"
+  full: "&c서버가 가득 찼습니다 &9| 잠시 후 다시 접속하세요"
+
+admin:
+  main:
+    title: "&c&l관리자 설정"
+    role-config: "&6역할 설정"
+    role-config-desc:
+      - "&7역할 사용 여부 설정"
+      - "&7등장 확률 설정"
+      - "&7필요 인원 설정"
+    game-settings: "&6게임 설정"
+    game-settings-desc:
+      - "&7최소 인원"
+      - "&7늑대인간 등장 인원 기준"
+      - "&7시작 대기 시간 (시험 구성은 10초 고정)"
+    timer-config: "&6시간 설정"
+    timer-config-desc:
+      - "&7진행 단계별 시간 설정"
+      - "&7역할별 제한 시간 설정"
+      - "&7게임 진행 시간 조정"
+    save: "&a설정 저장"
+    save-desc:
+      - "&7config.yml에 변경 사항 저장"
+      - "&e눌러서 저장"
+    reload: "&e설정 다시 불러오기"
+    reload-desc:
+      - "&7파일에서 설정 다시 불러오기"
+      - "&c저장하지 않은 변경은 사라집니다!"
+    close: "&c닫기"
+    saved: "&a설정을 저장했습니다!"
+    reloaded: "&e설정을 다시 불러왔습니다!"
+  
+  roles:
+    title: "&6역할 설정"
+    enabled: "&a사용"
+    disabled: "&c사용 안 함"
+    status: "&7상태: {status}"
+    threshold: "&7필요 인원: &e{threshold}명"
+    chance: "&7등장 확률: &e{chance}%"
+    toggle: "&e좌클릭: &f사용 여부 전환"
+    configure: "&e우클릭: &f세부 설정"
+    enabled-msg: "&6{role}&7 역할을 &a사용합니다"
+    disabled-msg: "&6{role}&7 역할을 &c사용하지 않습니다"
+    saved: "&a역할 설정을 저장했습니다!"
+    back: "&e← 뒤로"
+    save: "&a변경 저장"
+  
+  role-detail:
+    title: "&6{role} 설정"
+    player-threshold: "&b필요 인원"
+    threshold-current: "&7현재: &e{threshold}명"
+    threshold-desc: "&7이 역할이 등장하는 데 필요한 최소 인원"
+    spawn-chance: "&d등장 확률"
+    chance-current: "&7현재: &e{chance}%"
+    chance-desc: "&7역할이 등장할 확률"
+    decrease: "&c- 줄이기"
+    increase: "&a+ 늘리기"
+    decrease-lore:
+      - "&7좌클릭: {small}"
+      - "&7우클릭: {large}"
+    increase-lore:
+      - "&7좌클릭: {small}"
+      - "&7우클릭: {large}"
+    set-to: "&e{value}(으)로 설정"
+    threshold-set: "&6{role}&7 필요 인원을 &e{value}&7(으)로 설정했습니다"
+    chance-set: "&6{role}&7 등장 확률을 &e{value}%&7로 설정했습니다"
+  
+  game:
+    title: "&6게임 설정"
+    min-players: "&b최소 인원"
+    two-wolves: "&b늑대인간 2명 등장 기준"
+    countdown: "&b시작 대기 시간"
+    current: "&7현재: &e{value}"
+    range: "&7범위: {min}-{max}"
+    set: "&6{setting}&7 값을 &e{value}&7(으)로 설정했습니다"
+    saved: "&a게임 설정을 저장했습니다!"
+  
+  timers:
+    title: "&6시간 설정"
+    voleur: "&e도둑"
+    cupidon: "&e큐피드"
+    voyante: "&e예언자"
+    loups-garous: "&e늑대인간"
+    sorciere: "&e마녀"
+    vote-capitaine: "&e촌장 투표"
+    debat: "&e토론"
+    chasseur: "&e사냥꾼"
+    succession: "&e촌장 후계자 지명"
+    tiebreaker: "&e촌장 동률 결정"
+    current: "&7현재: &e{time}초"
+    controls:
+      - "&e좌클릭: &f+10초"
+      - "&e우클릭: &f-10초"
+      - "&eShift+좌클릭: &f+30초"
+      - "&eShift+우클릭: &f-30초"
+    set: "&6{timer}&7 시간을 &e{time}초&7로 설정했습니다"
+    saved: "&a시간 설정을 저장했습니다!"

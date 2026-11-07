@@ -1,0 +1,38 @@
+# Standalone file: do not merge with docker-compose.yml.
+name: lgmc-trial
+services:
+  minecraft:
+    image: ${TRIAL_MC_IMAGE:?Set an exact image digest in .env.trial}
+    environment:
+      EULA: ${TRIAL_EULA:?Set TRUE after accepting the Minecraft EULA}
+      TYPE: PAPER
+      VERSION: ${TRIAL_MC_VERSION:?Select a tested Minecraft version}
+      PAPER_BUILD: ${TRIAL_PAPER_BUILD:?Select an exact Paper build}
+      SKIP_DOWNLOAD_DEFAULTS: "true"
+      TZ: Asia/Seoul
+      ONLINE_MODE: "true"
+      ENFORCE_SECURE_PROFILE: "false"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: ${TRIAL_RCON_PASSWORD:?Set a unique random password}
+      MEMORY: "4G"
+      MAX_PLAYERS: "12"
+      ENABLE_COMMAND_BLOCK: "false"
+      SPAWN_MONSTERS: "false"
+      MODE: adventure
+      FORCE_GAMEMODE: "true"
+      ENABLE_WHITELIST: "true"
+      ENFORCE_WHITELIST: "true"
+      MOTD: "LGMC compatibility trial"
+    ports:
+      - "${TRIAL_BIND_IP:-127.0.0.1}:25566:25565/tcp"
+      - "${TRIAL_BEDROCK_BIND_IP:-127.0.0.1}:19133:19132/udp"
+      - "${TRIAL_BEDROCK_BIND_IP:-127.0.0.1}:19133:19132/tcp"
+    volumes:
+      - ./trial-data:/data
+    restart: "no"
+    stop_grace_period: 2m
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

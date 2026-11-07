@@ -1,0 +1,116 @@
+{
+  "version": {
+    "Snapshot": 0,
+    "Series": "main",
+    "Id": 3465,
+    "Name": "1.20.1"
+  },
+  "DataVersion": 3465,
+  "spawn": [
+    -53,
+    -20,
+    8
+  ],
+  "gamerules": {
+    "doWardenSpawning": "false",
+    "globalSoundEvents": "true",
+    "tntExplosionDropDecay": "false",
+    "doFireTick": "false",
+    "maxCommandChainLength": "65536",
+    "doVinesSpread": "true",
+    "fireDamage": "true",
+    "reducedDebugInfo": "false",
+    "waterSourceConversion": "true",
+    "disableElytraMovementCheck": "false",
+    "lavaSourceConversion": "false",
+    "announceAdvancements": "true",
+    "drowningDamage": "true",
+    "commandBlockOutput": "true",
+    "forgiveDeadPlayers": "true",
+    "doMobSpawning": "false",
+    "maxEntityCramming": "24",
+    "disableRaids": "false",
+    "doWeatherCycle": "false",
+    "mobExplosionDropDecay": "true",
+    "doDaylightCycle": "false",
+    "showDeathMessages": "true",
+    "doTileDrops": "true",
+    "universalAnger": "false",
+    "playersSleepingPercentage": "100",
+    "snowAccumulationHeight": "1",
+    "doInsomnia": "false",
+    "blockExplosionDropDecay": "true",
+    "doImmediateRespawn": "true",
+    "naturalRegeneration": "true",
+    "doMobLoot": "true",
+    "fallDamage": "true",
+    "keepInventory": "true",
+    "doEntityDrops": "true",
+    "doLimitedCrafting": "false",
+    "mobGriefing": "true",
+    "randomTickSpeed": "3",
+    "spawnRadius": "10",
+    "commandModificationBlockLimit": "32768",
+    "doTraderSpawning": "false",
+    "freezeDamage": "true",
+    "logAdminCommands": "true",
+    "spectatorsGenerateChunks": "true",
+    "sendCommandFeedback": "true",
+    "doPatrolSpawning": "false"
+  },
+  "datapacks": {
+    "Disabled": [
+      "bundle"
+    ],
+    "Enabled": [
+      "vanilla"
+    ]
+  },
+  "chunks": 7652,
+  "command_blocks": [
+    {
+      "x": -52,
+      "y": -21,
+      "z": -19,
+      "Command": "/gamemode adventure @p",
+      "auto": 0
+    },
+    {
+      "x": -56,
+      "y": -31,
+      "z": -4,
+      "Command": "/gamemode adventure @p",
+      "auto": 0
+    },
+    {
+      "x": 8,
+      "y": -9,
+      "z": 7,
+      "Command": "/time set midnight",
+      "auto": 0
+    },
+    {
+      "x": 6,
+      "y": -9,
+      "z": 10,
+      "Command": "/gamemode creative @p",
+      "auto": 0
+    },
+    {
+      "x": 8,
+      "y": -9,
+      "z": 9,
+      "Command": "/time set day",
+      "auto": 0
+    },
+    {
+      "x": 5,
+      "y": -21,
+      "z": 23,
+      "Command": "/gamemode adventure @p",
+      "auto": 0
+    }
+  ],
+  "campfire_in_palette": true,
+  "soul_campfire_in_palette": true
+}

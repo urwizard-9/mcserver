@@ -1,0 +1,1444 @@
+{
+  "status": "research-not-deployable-geyser-mapping",
+  "upstream": "https://github.com/DarkShoro/lgmc/tree/v5.1.3/src/main",
+  "pack_sha256": "e6ad5c95f43a9f5d398433bd8cfd9f2769c0f5547aab2f2380ec59f00b2498df",
+  "notes": [
+    "Items are material-based in inspected source; verify installed Geyser format before creating mappings.",
+    "No mobile pack is installed by this inventory.",
+    "Do not reproduce source images without establishing applicable terms."
+  ],
+  "items": [
+    {
+      "id": "loup-garou",
+      "java_material": "RED_DYE",
+      "language_key": "roles.loup-garou.name",
+      "purpose": "role-card",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "private-role: offhand and third-person checks required",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/red_dye.json",
+        "textures": {
+          "0": "item/lg/loup_garou",
+          "particle": "item/lg/loup_garou"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "head": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "villageois",
+      "java_material": "GREEN_DYE",
+      "language_key": "roles.villageois.name",
+      "purpose": "role-card",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "private-role: offhand and third-person checks required",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/green_dye.json",
+        "textures": {
+          "0": "item/lg/villageois",
+          "particle": "item/lg/villageois"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "head": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "petite-fille",
+      "java_material": "PURPLE_DYE",
+      "language_key": "roles.petite-fille.name",
+      "purpose": "role-card",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "private-role: offhand and third-person checks required",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/purple_dye.json",
+        "textures": {
+          "0": "item/lg/petite_fille",
+          "particle": "item/lg/petite_fille"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "head": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "voyante",
+      "java_material": "PINK_DYE",
+      "language_key": "roles.voyante.name",
+      "purpose": "role-card",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "private-role: offhand and third-person checks required",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/pink_dye.json",
+        "textures": {
+          "0": "item/lg/voyante",
+          "particle": "item/lg/voyante"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "head": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "sorciere",
+      "java_material": "GRAY_DYE",
+      "language_key": "roles.sorciere.name",
+      "purpose": "role-card",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "private-role: offhand and third-person checks required",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/gray_dye.json",
+        "textures": {
+          "0": "item/lg/sorciere",
+          "particle": "item/lg/sorciere"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "head": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "cupidon",
+      "java_material": "LIGHT_GRAY_DYE",
+      "language_key": "roles.cupidon.name",
+      "purpose": "role-card",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "private-role: offhand and third-person checks required",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/light_gray_dye.json",
+        "textures": {
+          "0": "item/lg/cupidon",
+          "particle": "item/lg/cupidon"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ]
+          },
+          "head": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "chasseur",
+      "java_material": "CYAN_DYE",
+      "language_key": "roles.chasseur.name",
+      "purpose": "role-card",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "private-role: offhand and third-person checks required",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/cyan_dye.json",
+        "textures": {
+          "0": "item/lg/chasseur",
+          "particle": "item/lg/chasseur"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "head": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "voleur",
+      "java_material": "BROWN_DYE",
+      "language_key": "roles.voleur.name",
+      "purpose": "role-card",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "private-role: offhand and third-person checks required",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/brown_dye.json",
+        "textures": {
+          "0": "item/lg/voleur",
+          "particle": "item/lg/voleur"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ]
+          },
+          "head": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "ange",
+      "java_material": "LIGHT_BLUE_DYE",
+      "language_key": "roles.ange.name",
+      "purpose": "role-card",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "private-role: offhand and third-person checks required",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/light_blue_dye.json",
+        "textures": {
+          "0": "item/lg/ange",
+          "particle": "item/lg/ange"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ],
+            "translation": [
+              -9,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ]
+          },
+          "head": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "capitaine",
+      "java_material": "BLUE_DYE",
+      "language_key": "roles.capitaine.name",
+      "purpose": "captain-marker",
+      "source": "config.yml roles.helmets; ConfigManager.getRoleHelmetItemStack; GameManager",
+      "visibility": "public-role: verify actual equipment use",
+      "mapping_decision": "pending minimal prototype; do not assume CustomModelData",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/blue_dye.json",
+        "textures": {
+          "0": "item/lg/capitaine",
+          "1": "item/gunpowder",
+          "particle": "item/lg/capitaine"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              180,
+              -12.25,
+              180
+            ],
+            "translation": [
+              -20,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              180,
+              -12.25,
+              180
+            ],
+            "translation": [
+              -20,
+              13.5,
+              0
+            ],
+            "scale": [
+              0.2,
+              0.2,
+              0.2
+            ]
+          },
+          "ground": {
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          },
+          "head": {
+            "translation": [
+              0,
+              16,
+              0
+            ],
+            "scale": [
+              0.75,
+              0.75,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "life-potion",
+      "java_material": "SUGAR",
+      "language_key": "gui.items.life-potion",
+      "purpose": "action-or-menu",
+      "source": "gui/SorciereGUI.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "death-potion",
+      "java_material": "GUNPOWDER",
+      "language_key": "gui.items.death-potion",
+      "purpose": "action-or-menu",
+      "source": "gui/SorciereGUI.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "skip",
+      "java_material": "FEATHER",
+      "language_key": "gui.items.skip",
+      "purpose": "action-or-menu",
+      "source": "gui/VoteGUI.java and other role GUIs",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "thief-skip",
+      "java_material": "BARRIER",
+      "language_key": "gui.items.skip",
+      "purpose": "action-or-menu",
+      "source": "gui/VoleurGUI.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "vote",
+      "java_material": "PAPER",
+      "language_key": "gui.items.vote-day",
+      "purpose": "action-or-menu",
+      "source": "managers/GameManager.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "testament",
+      "java_material": "WRITTEN_BOOK",
+      "language_key": "gui.items.testament",
+      "purpose": "action-or-menu",
+      "source": "managers/GameManager.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "hunter-tool",
+      "java_material": "WOODEN_HOE",
+      "language_key": null,
+      "purpose": "action-or-menu",
+      "source": "managers/GameManager.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/wooden_hoe.json",
+        "textures": {
+          "0": "item/wooden_hoe",
+          "particle": "item/wooden_hoe"
+        },
+        "elements": 16,
+        "display": {
+          "thirdperson_righthand": {
+            "translation": [
+              0,
+              4,
+              -4
+            ],
+            "scale": [
+              0.4,
+              0.4,
+              0.4
+            ]
+          },
+          "thirdperson_lefthand": {
+            "translation": [
+              0,
+              4,
+              -4
+            ],
+            "scale": [
+              0.4,
+              0.4,
+              0.4
+            ]
+          },
+          "firstperson_righthand": {
+            "translation": [
+              -9,
+              9.75,
+              -2.75
+            ]
+          },
+          "firstperson_lefthand": {
+            "translation": [
+              -9,
+              9.75,
+              -2.75
+            ]
+          },
+          "ground": {
+            "rotation": [
+              39,
+              -0.05,
+              -0.33
+            ],
+            "translation": [
+              0,
+              7.75,
+              1.75
+            ],
+            "scale": [
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          "gui": {
+            "rotation": [
+              30,
+              225,
+              0
+            ],
+            "translation": [
+              0,
+              3.5,
+              0
+            ],
+            "scale": [
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          "head": {
+            "translation": [
+              0,
+              15.25,
+              0
+            ]
+          },
+          "fixed": {
+            "rotation": [
+              90,
+              45,
+              -90
+            ],
+            "translation": [
+              2.75,
+              2.5,
+              0
+            ],
+            "scale": [
+              0.5,
+              0.5,
+              0.5
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "werewolf-target",
+      "java_material": "IRON_HOE",
+      "language_key": "gui.items.werewolf-attack",
+      "purpose": "action-or-menu",
+      "source": "managers/GameManager.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/item/iron_hoe.json",
+        "textures": {
+          "0": "item/iron_hoe",
+          "particle": "item/iron_hoe"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "translation": [
+              0,
+              3,
+              1
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "translation": [
+              0,
+              3,
+              1
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              0,
+              -90,
+              25
+            ],
+            "translation": [
+              1.13,
+              3.2,
+              1.13
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              0,
+              -90,
+              25
+            ],
+            "translation": [
+              1.13,
+              3.2,
+              1.13
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "ground": {
+            "translation": [
+              0,
+              2,
+              0
+            ],
+            "scale": [
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          "head": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ],
+            "translation": [
+              0,
+              0,
+              -6.5
+            ],
+            "scale": [
+              0.8,
+              0.8,
+              0.8
+            ]
+          },
+          "fixed": {
+            "rotation": [
+              0,
+              -180,
+              0
+            ],
+            "translation": [
+              0,
+              0,
+              -0.1
+            ],
+            "scale": [
+              2,
+              2,
+              2
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "crystal",
+      "java_material": "FLINT",
+      "language_key": "gui.items.crystal",
+      "purpose": "action-or-menu",
+      "source": "managers/GameManager.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "steal",
+      "java_material": "WHEAT",
+      "language_key": "gui.items.steal-role",
+      "purpose": "action-or-menu",
+      "source": "managers/GameManager.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "lovers",
+      "java_material": "NETHERITE_SCRAP",
+      "language_key": "gui.items.designate-lovers",
+      "purpose": "action-or-menu",
+      "source": "managers/GameManager.java",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "target-head",
+      "java_material": "PLAYER_HEAD",
+      "language_key": null,
+      "purpose": "action-or-menu",
+      "source": "gui/VoteGUI.java and other role GUIs",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": null,
+      "bedrock_status": "not-built"
+    },
+    {
+      "id": "dead-marker",
+      "java_material": "CARVED_PUMPKIN",
+      "language_key": null,
+      "purpose": "action-or-menu",
+      "source": "managers/GameManager.java killPlayer",
+      "visibility": "review role-specific equipment visibility",
+      "mapping_decision": "test vanilla fallback first; custom assets only where needed",
+      "java_pack_model": {
+        "file": "assets/minecraft/models/block/carved_pumpkin.json",
+        "textures": {
+          "0": "block/skull/skull2",
+          "particle": "block/skull/skull2"
+        },
+        "elements": 1,
+        "display": {
+          "thirdperson_righthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "thirdperson_lefthand": {
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "firstperson_righthand": {
+            "rotation": [
+              -180,
+              20,
+              -180
+            ],
+            "translation": [
+              4,
+              14.5,
+              -1.25
+            ],
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "firstperson_lefthand": {
+            "rotation": [
+              -180,
+              20,
+              -180
+            ],
+            "translation": [
+              4,
+              14.5,
+              -1.25
+            ],
+            "scale": [
+              0.5,
+              0.5,
+              0
+            ]
+          },
+          "ground": {
+            "scale": [
+              1,
+              1,
+              0
+            ]
+          },
+          "gui": {
+            "rotation": [
+              0,
+              180,
+              0
+            ],
+            "translation": [
+              0.5,
+              -0.5,
+              0
+            ],
+            "scale": [
+              2,
+              2,
+              2
+            ]
+          },
+          "head": {
+            "rotation": [
+              180,
+              180,
+              180
+            ],
+            "translation": [
+              0,
+              20,
+              0
+            ],
+            "scale": [
+              2,
+              2,
+              0
+            ]
+          },
+          "fixed": {
+            "scale": [
+              2,
+              2,
+              0
+            ]
+          }
+        }
+      },
+      "bedrock_status": "not-built"
+    }
+  ]
+}

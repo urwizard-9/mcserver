@@ -1,0 +1,61 @@
+{
+  "status": "trial-not-gameplay-verified",
+  "paper": {
+    "version": "1.21.8",
+    "build": 60,
+    "sha256": "8de7c52c3b02403503d16fac58003f1efef7dd7a0256786843927fa92ee57f1e"
+  },
+  "image": "itzg/minecraft-server@sha256:04b5ee189f5f2c1992fa557e366cf2e4d09fe2abfbd57d2d1f977d8c038c1b98",
+  "plugins": [
+    {
+      "file": "Geyser-Spigot.jar",
+      "version": "2.12.1",
+      "url": "https://download.geysermc.org/v2/projects/geyser/versions/2.12.1/builds/1294/downloads/spigot",
+      "sha256": "71c9ebd88fb729ff8dd881de5846a1cea04eb4ce89dc1004e67002d8a5077e4c"
+    },
+    {
+      "file": "floodgate-spigot.jar",
+      "version": "2.2.5",
+      "url": "https://download.geysermc.org/v2/projects/floodgate/versions/2.2.5/builds/141/downloads/spigot",
+      "sha256": "21570aff9ce17d6983928e8552777760e1ede5050026b04c686b0ae112e6fd7e"
+    },
+    {
+      "file": "ProtocolLib.jar",
+      "version": "5.4.0",
+      "url": "https://github.com/dmulloy2/ProtocolLib/releases/download/5.4.0/ProtocolLib.jar",
+      "sha256": "ee2e7ab9b5386f2d103081c4d108e61b1035df2ca692b53d6e2409fb1f5caccf"
+    },
+    {
+      "file": "ViaVersion-5.12.2.jar",
+      "version": "5.12.2",
+      "url": "https://github.com/ViaVersion/ViaVersion/releases/download/5.12.2/ViaVersion-5.12.2.jar",
+      "sha256": "24e4876fefe73e08a4c87cd6c457ee0916e62dd69656631caf41e26f909d504b"
+    },
+    {
+      "file": "lgmc-5.1.3-bedrock-trial.2.jar",
+      "version": "5.1.3-bedrock-trial.2",
+      "url": "https://github.com/DarkShoro/lgmc/releases/download/v5.1.3/lgmc-5.1.3.jar",
+      "sha256": "5076f21edef245dfe0dc3717b53b1978902c2ce0274f7254001ed0f52aff892b",
+      "upstream_sha256": "696096f5d555d9e223fba6a4324099d5a38a55277f58b00aebce1c3b305eb20a",
+      "patch_source": "patches/lgmc",
+      "url_is_upstream": true
+    },
+    {
+      "file": "lgmc-lobby-0.3.0-trial.jar",
+      "version": "0.3.0-trial",
+      "source": "lobby/",
+      "sha256": "afb0eb032c6c494f53d74d74271ab7c7a1a1db90b16812e30b9d85b26a3f2dc5"
+    }
+  ],
+  "localization": {
+    "language": "ko",
+    "source": "config/lgmc/lang/ko.yml",
+    "sha256": "20ecb7ea6c6e655fdd103fef2e212c09e270510900a8d63221de4a5983fb32f6",
+    "backup": "backups/before-korean-20261107-094315"
+  },
+  "preview": {
+    "backup": "backups/before-preview-20261107-165137",
+    "status": "compiled-not-client-verified",
+    "command": "/lgpreview [player]"
+  }
+}

@@ -1,0 +1,6 @@
+ready-timeout-seconds: 120
+lobby:
+  world: world
+  x: -4.5
+  y: -20.0
+  z: -4.5
